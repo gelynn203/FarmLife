@@ -17,7 +17,7 @@ jobs:
       - name: Extract project
         run: |
           unzip -o FarmLifeAndroidProject.zip -d extracted
-          cp -r extracted/FarmLifeAndroidProject/. .
+          cp -r extracted/. .
           rm -rf extracted
           rm -f FarmLifeAndroidProject.zip
 
