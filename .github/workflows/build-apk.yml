@@ -19,6 +19,7 @@ jobs:
           unzip -o FarmLifeAndroidProject.zip -d extracted
           cp -r extracted/FarmLifeAndroidProject/. .
           rm -rf extracted
+          rm -f FarmLifeAndroidProject.zip
 
       - name: Set up Java
         uses: actions/setup-java@v4
